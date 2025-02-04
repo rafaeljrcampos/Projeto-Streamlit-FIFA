@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time
-
+import random
 # Função para carregar os dados do Excel
 def load_data():
     return pd.read_excel('datasets/Pasta1.xlsx', index_col=0)
